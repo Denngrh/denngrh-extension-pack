@@ -1,37 +1,59 @@
 {
   "name": "denngrh-extension-pack",
   "displayName": "Denngrh Extension Pack",
-  "description": "Starter kit for creating the experience of coding easier",
-  "version": "0.0.1",
+  "description": "Denngrh Extension Pack is a Official VS Code Extension Pack By BADEN NUGRAHA! Denngrh Pack is a collection of popular extensions that can help write, test and debug  applications in Visual Studio Code. by creating creating the experience of coding easier",
+  "version": "0.1.0",
+  "publisher": "Denngrh",
+  "icon": "logo.png",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "bugs": {
+    "url": "https://github.com/Denngrh/denngrh-extension-pack/issues",
+    "email": "badennugraha4@gmail.com"
+},
   "categories": [
-    "Other"
+    "Extension Packs",
+    "Snippets"
   ],
-  "icon": "./logo.png",
-  "publisher": "Baden-Nugraha",
-  "activationEvents": [],
-  "main": "./extension.js",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#DAD0C2",
+    "theme": "light"
+  },
+  "keywords": [
+    "Extension Pack"
+  ],
   "contributes": {
     "commands": [{
-      "command": "denngrh-extension-pack.helloWorld",
-      "title": "Hello World"
+      "command": "denngrh-extension-pack.bugview",
+      "title": "confirm the bug in the initial screen"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Denngrh/denngrh-extension-pack"
   },
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "vscode-test"
   },
-  "devDependencies": {
-    "@types/vscode": "^1.85.0",
-    "@types/mocha": "^10.0.6",
-    "@types/node": "18.x",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
-    "@vscode/test-cli": "^0.0.4",
-    "@vscode/test-electron": "^2.3.9",
-    "vscode": "^1.1.37"
-  }
+  "extensionPack": [
+    "usernamehw.errorlens",
+    "vscode-icons-team.vscode-icons",
+    "esbenp.prettier-vscode",
+    "tal7aouy.rainbow-bracket",
+    "alefragnani.project-manager",
+    "bmewburn.vscode-intelephense-client",
+    "christian-kohler.path-intellisense",
+    "IBM.output-colorizer",
+    "codezombiech.gitignore",
+    "miguelsolorio.fluent-icons",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "ExodiusStudios.comment-anchors",
+    "adpyke.codesnap",
+    "zhuangtongfa.material-theme"
+]
 }
