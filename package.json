@@ -1,9 +1,9 @@
 {
   "name": "denngrh-extension-pack",
   "displayName": "Denngrh Extension Pack",
-  "description": "Denngrh Extension Pack is a Official VS Code Extension Pack By BADEN NUGRAHA! Denngrh Pack is a collection of popular extensions that can help write, test and debug  applications in Visual Studio Code. by creating creating the experience of coding easier",
+  "description": "Popular extensions for the first installation Visual Studio Code.", 
   "version": "0.1.0",
-  "publisher": "Denngrh",
+  "extensionId": "denngrh.extension-pack",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.85.0"
