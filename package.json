@@ -2,7 +2,7 @@
   "name": "denngrh-extension-pack",
   "displayName": "Denngrh Extension Pack",
   "description": "Popular extensions for the first installation Visual Studio Code.", 
-  "version": "0.1.0",
+  "version": "0.1.1",
   "extensionId": "denngrh.extension-pack",
   "icon": "logo.png",
   "engines": {
