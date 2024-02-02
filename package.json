@@ -3,7 +3,7 @@
   "displayName": "Denngrh Extension Pack",
   "description": "Popular extensions for the first installation Visual Studio Code.", 
   "version": "0.1.1",
-  "extensionId": "denngrh.extension-pack",
+  "publisher": "Denngrh",
   "icon": "logo.png",
   "engines": {
     "vscode": "^1.85.0"
