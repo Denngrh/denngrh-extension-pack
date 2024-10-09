@@ -1,8 +1,8 @@
 {
   "name": "denngrh-extension-pack",
   "displayName": "Denngrh Extension Pack",
-  "description": "Popular extensions for the first installation Visual Studio Code.", 
-  "version": "0.1.1",
+  "description": "A curated list of essential extensions for new developers using Visual Studio Code. This pack improves productivity, code formatting, and project management.", 
+  "version": "0.1.3",
   "publisher": "Denngrh",
   "icon": "logo.png",
   "engines": {
@@ -22,12 +22,17 @@
     "theme": "light"
   },
   "keywords": [
-    "Extension Pack"
+    "Extension Pack",
+    "Beginner",
+    "Productivity",
+    "Coding",
+    "Formatting",
+    "Developer Tools"
   ],
   "contributes": {
     "commands": [{
-      "command": "denngrh-extension-pack.bugview",
-      "title": "confirm the bug in the initial screen"
+      "command": "denngrh-extension-pack.showHelp",
+      "title": "Show Help for Beginners"
     }]
   },
   "repository": {
