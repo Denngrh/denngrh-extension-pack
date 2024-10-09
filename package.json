@@ -45,20 +45,17 @@
     "test": "vscode-test"
   },
   "extensionPack": [
-    "usernamehw.errorlens",
-    "vscode-icons-team.vscode-icons",
-    "esbenp.prettier-vscode",
-    "tal7aouy.rainbow-bracket",
-    "alefragnani.project-manager",
-    "bmewburn.vscode-intelephense-client",
-    "christian-kohler.path-intellisense",
-    "IBM.output-colorizer",
-    "codezombiech.gitignore",
-    "miguelsolorio.fluent-icons",
-    "dbaeumer.vscode-eslint",
-    "EditorConfig.EditorConfig",
-    "ExodiusStudios.comment-anchors",
+    "formulahendry.auto-close-tag",
+    "ritwickdey.LiveServer",
+    "formulahendry.auto-rename-tag",
+    "BeardedBear.beardedtheme",
+    "dzhavat.bracket-pair-toggler",
     "adpyke.codesnap",
-    "zhuangtongfa.material-theme"
+    "pranaygp.vscode-css-peek",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "bierner.markdown-mermaid",
+    "esbenp.prettier-vscode",
+    "vscode-icons-team.vscode-icons"
 ]
 }
