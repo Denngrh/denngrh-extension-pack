@@ -2,7 +2,7 @@
   "name": "denngrh-extension-pack",
   "displayName": "Denngrh Extension Pack",
   "description": "A curated list of essential extensions for new developers using Visual Studio Code. This pack improves productivity, code formatting, and project management.", 
-  "version": "0.1.3",
+  "version": "0.2.0",
   "publisher": "Denngrh",
   "icon": "logo.png",
   "engines": {
@@ -29,12 +29,6 @@
     "Formatting",
     "Developer Tools"
   ],
-  "contributes": {
-    "commands": [{
-      "command": "denngrh-extension-pack.showHelp",
-      "title": "Show Help for Beginners"
-    }]
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Denngrh/denngrh-extension-pack"
@@ -56,6 +50,35 @@
     "dbaeumer.vscode-eslint",
     "bierner.markdown-mermaid",
     "esbenp.prettier-vscode",
-    "vscode-icons-team.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "github.copilot",
+    "github.copilot-chat",
+    "amiralizadeh9480.laravel-extra-intellisense",
+    "bmewburn.vscode-intelephense-client",
+    "codingyu.laravel-goto-view",
+    "damms005.devdb",
+    "editorconfig.editorconfig",
+    "glitchbl.laravel-create-view",
+    "ihunte.laravel-blade-wrapper",
+    "mikestead.dotenv",
+    "naoray.laravel-goto-components",
+    "onecentlin.laravel-blade",
+    "onecentlin.laravel-extension-pack",
+    "onecentlin.laravel5-snippets",
+    "oracle.oracle-java",
+    "pgl.laravel-jump-controller",
+    "redhat.java",
+    "ryannaddy.laravel-artisan",
+    "shufo.vscode-blade-formatter",
+    "tomoki1207.pdf",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode",
+    "vscjava.vscode-gradle",
+    "vscjava.vscode-java-debug",
+    "vscjava.vscode-java-dependency",
+    "vscjava.vscode-java-pack",
+    "vscjava.vscode-java-test",
+    "vscjava.vscode-maven",
+    "zhuangtongfa.material-theme"
 ]
 }
